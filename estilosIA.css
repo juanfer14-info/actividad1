@@ -1,0 +1,115 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    text-align: right;
+}
+
+section {
+    text-align: center;
+}
+
+nav {
+    background-color: #4B0082; /* Color de fondo de la barra de navegación */
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Color del texto de los enlaces en la barra de navegación */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+
+
+}
+
+/* Estilos específicos para la página de inicio */
+.inicio {
+    text-align: match-parent;
+    padding: 100px 0;
+}
+
+/* Estilos específicos para la página de contacto */
+.contacto {
+    padding: 50px 0;
+}
+
+/* Estilos específicos para la página de información */
+.informacion {
+    padding: 50px 0;
+}
+
+/* Estilos para las categorías de plantas */
+.plantas-categorias ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plantas-categorias ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para las páginas de plantas */
+.plantas h3 {
+    text-align: center;
+}
+
+.planta {
+    border: 2px solid #8A2BE2; /* Borde violeta */
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 300px; /* Altura fija para todos los recuadros de plantas */
+    display: flex; /* Utiliza display: flex para centrar contenido */
+    flex-direction: column; /* Apila los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+}
+
+.planta img {
+    max-width: 100%;
+    max-height: 70%; /* Añade esta línea para ajustar la imagen al tamaño del contenedor */
+    object-fit: cover; /* Añade esta línea para ajustar la imagen manteniendo la proporción y cubriendo el contenedor */
+}
+
+
+/* Estilos para el botón "+ info" */
+.btn-info {
+    background-color: #4B0082;
+    color: white;
+    border: none;
+    margin-left: 100px;
+}
+
+.btn-info:hover {
+    background-color: #8A2BE2; /* Color de fondo cuando se pasa el cursor sobre el botón */
+}
+
+/* Estilos para el botón "Atrás" */
+.btn-atras {
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px; /* Espacio superior */
+}
+
